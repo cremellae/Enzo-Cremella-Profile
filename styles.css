@@ -17,6 +17,7 @@ body {
     height: 10%;
     width: 100%;
     padding-left: 10px;
+    z-index: 5;
 }
 
 #navMenuLinks {
@@ -45,14 +46,15 @@ body {
 
 .frontVideo{
     position: fixed;
-    z-index: -1;
+    z-index: -10;
 }
 
 .textsOfPresentation {
-    padding-left: 9%;
     padding-top: 7%;
-    width: 95%;
+    width: 100%;
     padding-bottom: 3%;
+    z-index: 1!important;
+    position: absolute;
 }
 
 .socialMediaFirstSection {
@@ -62,6 +64,9 @@ body {
     align-items: center;
     padding: 20px 0 20px 0;
     width: 10%;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
 }
 
 .textTitle {
