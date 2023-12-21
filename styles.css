@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+.header {
+    background-color: rgb(28, 28, 29);
+}
+
 .navigationMenu {
     display: flex;
     position: fixed;
@@ -34,9 +38,14 @@ body {
 
 .firstSection {
     display: flex;
-    background-color: rgb(28, 28, 29);
     width: 100%;
     padding-top: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.frontVideo{
+    position: fixed;
+    z-index: -1;
 }
 
 .textsOfPresentation {
