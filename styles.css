@@ -1,6 +1,6 @@
 /* My Personal WebPage Project */
 
-/* Header */
+/* HEADER */
 body {
     margin: 0;
 }
@@ -9,7 +9,7 @@ body {
     display: flex;
     position: fixed;
     align-items: center;
-    background-color: black;
+    background-color: rgb(28, 28, 29);
     height: 10%;
     width: 100%;
     padding-left: 10px;
@@ -22,11 +22,15 @@ body {
     font-family: lato,sans-serif;
     font-weight: 500;
     padding: 0 10px 0 10px;
+    font-size: 15px;
 }
 
 #navMenuLinks:hover{
-    color: rgb(190, 184, 184);
+    color: #da6041;
 }
+
+/* MAIN */
+/* FRONT SECTION */
 
 .firstSection {
     display: flex;
@@ -36,8 +40,10 @@ body {
 }
 
 .textsOfPresentation {
-    padding-left: 5%;
+    padding-left: 10%;
+    padding-top: 7%;
     width: 95%;
+    padding-bottom: 1%;
 }
 
 .socialMediaFirstSection {
@@ -46,7 +52,7 @@ body {
     justify-content: end;
     align-items: center;
     padding: 20px 0 20px 0;
-    width: 5%;
+    width: 10%;
 }
 
 .textTitle {
@@ -93,16 +99,18 @@ body {
     margin: 0 1px;
 }
 
+/* MY PROFILE SECTION */
+
 .secondSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 100px 0;
+    background: rgb(243, 248, 255);
 }
 
 .container {
     width: 30%;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .textTitleSecondSection {
@@ -111,6 +119,7 @@ body {
     color: #da6041;
     font-weight: 700;
     text-align: left;
+    margin-top: 0;
 }
 
 .paragraph {
@@ -136,12 +145,14 @@ body {
     margin-top: 35px;
 }
 
+/* SKILLS SECTION */
+
 .thirdSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0 50px 0;
+    padding: 50px 25px 50px 25px;
     background-color: rgb(28, 28, 29);
 }
 
@@ -199,3 +210,403 @@ body {
     transform: scale(1,1);
 }
 
+/* PROGRAMING SKILLS SECTION */
+
+.fourthSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 80px 0 80px 0;
+    justify-content: space-around;
+    background: rgb(243, 248, 255);
+}
+
+.generalTitle {
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 42px;
+    color: rgb(28, 28, 29);
+    text-align: left;
+    margin: 0px 0px;
+}
+
+.paragraphFourthSection {
+    color: rgb(28, 28, 29);
+    text-align: left;
+    line-height: 1.6;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.containerTexts {
+    width: 45%;
+}
+
+.generalContainerSkills {
+    width: 15%;
+}
+
+.containerSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.skillTitle {
+    color: #da6041;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+    margin: 0;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.skillSubtitle {
+    color: rgb(28, 28, 29);
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* LANGUAGES SECTION */
+
+.fifthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(28, 28, 29);
+    padding: 80px 0 80px 0;
+}
+
+.generalTitleEdited {
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.containerLanguages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerLanguage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.language {
+    color: #da6041;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.languageLevel {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* EXPERIENCE SECTION */
+
+.sixthSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 80px 0;
+    background: rgb(243, 248, 255);
+}
+
+.paragraphExperience {
+    color: rgb(66, 84, 117);
+    text-align: center;
+    width: 100%;
+    line-height: 1.4;
+    margin: 20px 0 100px 0;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.expertiseBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: -2.5%;
+}
+
+.expertiseContainer {
+    width: 40%;
+}
+
+.expertiseBlock img {
+    margin: 0 6%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.expertise {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14%;
+    width: max-content;
+}
+
+.expertiseLineDivision {
+    border-left: 1px solid rgb(215, 222, 244);
+}
+
+.numberDivision {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    right: 3px;
+    margin: 0;
+    color: #da6041;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+.expertiseTitle{
+    color: rgb(28, 28, 29);
+    text-align: left;
+    width: 100%;
+    margin: -23px 0 0px 0;
+    font-weight: 700;
+    padding: 0;
+    font-family: 'Roboto Slab',serif;
+    font-size: 20px;
+    padding-left: 14%;
+}
+
+.expertiseInfo {
+    color: rgb(66, 84, 117);
+    text-align: left;
+    line-height: 1.4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+.expertiseLineDivisionTwo {
+    border-right: 1px solid rgb(215, 222, 244);
+}
+
+/* PORTFOLIO SECTION */
+
+.seventhSection {
+    padding: 80px 0;
+}
+
+.seventhSection h2 {
+    text-align: center;
+}
+
+/* FOOTER */
+/* FIRST SECTION */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: rgb(243, 248, 255);
+    padding: 80px 0 0 0;
+}
+
+.firstFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: self-start;
+    padding-bottom: 80px;
+}
+
+.contactMe {
+    color: rgb(28, 28, 29);
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 100%;
+    font-family: "Roboto Slab",sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.contactMeInfo {
+    color: rgb(28, 28, 29);
+    text-align: left;
+    width: 100%;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 20%;
+}
+
+.inputContact {
+    margin: 2.5% 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 45px 0px 25px;
+    height: 50px;
+    font-size: 16px;
+    appearance: none;
+    border-radius: 50px;
+    border: 1px solid rgba(28, 28, 29, 0.3);
+    color: rgb(28, 28, 29);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.inputContact::placeholder {
+    font-size: 16px;
+    appearance: none;
+    color: rgb(28, 28, 29);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.inputContact:focus-visible {
+    outline: 1px solid rgba(28, 28, 29, 0.3);
+}
+
+.textAreaContact {
+    font-size: 16px;
+    appearance: none;
+    border-radius: 25px;
+    border: 1px solid rgba(28, 28, 29, 0.3);
+    color: rgb(28, 28, 29);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 17px 45px 0px 25px;
+    margin: 2.5% 0;
+}
+
+.textAreaContact::placeholder {
+    font-size: 16px;
+    appearance: none;
+    color: rgb(28, 28, 29);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.textAreaContact:focus-visible {
+    outline: 1px solid rgba(28, 28, 29, 0.3);
+}
+
+.send {
+    max-width: 35%;
+    margin: 2.5% 0 0 auto;
+    border: none;
+    border-radius: 50px;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(-180deg, #da6041 0%, #da6041 96%) no-repeat;
+    box-shadow: #ca6b54 0px 4px 10px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px 40px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    word-break: initial;
+    outline: none;
+    justify-content: right;
+}
+
+.findMe {
+    color: rgb(28, 28, 29);
+    font-weight: 700;
+    width: 100%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 45px;
+}
+
+.smallIcon {
+    color: #da6041;
+    border: 3px solid transparent;
+}
+
+.secondFooter {
+    background-color: rgb(28, 28, 29);
+    width: 100%;
+    padding-left: 10px;
+}
+
+.footerNavigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: white;
+    transition: color .3s ease-in-out;
+    font-family: lato,sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.linkFooter:hover {
+    color: #da6041;
+}
+
+.thirdFooter {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0;
+    background-color: hsl(0deg 0% 0% / 50%);
+}
+
+.copyright {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+}
+
+.texarLink {
+    text-decoration: underline;
+    font-weight: 600;
+    color: black;
+    font-family: 'Roboto Slab',sans-serif;
+}
