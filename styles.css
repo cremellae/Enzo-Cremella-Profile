@@ -40,10 +40,10 @@ body {
 }
 
 .textsOfPresentation {
-    padding-left: 10%;
+    padding-left: 9%;
     padding-top: 7%;
     width: 95%;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
 }
 
 .socialMediaFirstSection {
@@ -138,6 +138,7 @@ body {
     font-weight: 700;
     font-size: 32px;
     font-family: 'Roboto Slab', serif;
+    margin-top: 13px;
 }
 
 .imageProfile {
@@ -566,7 +567,6 @@ body {
 
 .secondFooter {
     background-color: rgb(28, 28, 29);
-    width: 100%;
     padding-left: 10px;
 }
 
